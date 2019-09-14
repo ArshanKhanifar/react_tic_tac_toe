@@ -1,8 +1,27 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tic-Tac-Toe Game
+This is a toy project for learning react, I simply followed their tutorials and completed the game.
 
 ## Available Scripts   
+=======
+### Environment Variables
+To set the top-level directory for imports, set `NODEPATH=src`. My IDE, WebStorm
+already figures it out and doesn't complain, but the toolchain doesn't compile
+if you try importing stuff.
 
-In the project directory, you can run:
+### Integration with WebStorm (MacOS)
+It pretty much worked out of the box which was pretty amazing! Things that work:
+* Jump to definition
+* Project navigation
+* Auto-importing: ctrl + option + space -> auto-imports!
+* Refactoring: moving files around changes the import path!
+
+Things that don't work (Need to figure it out):
+* Auto-importing for installed libraries. You can jump to definitions once they
+* Auto-import doesn't happen in html tags.
+have been imported, but WebStorm can't auto-import stuff. 😞
+
+## Available NPM Scripts
+These were available out of the box.
 
 ### `npm start`
 
@@ -37,32 +56,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
